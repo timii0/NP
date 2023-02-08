@@ -1,0 +1,105 @@
+@media screen and (min-width: 360px) {
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Covered+By+Your+Grace&family=Permanent+Marker&family=Satisfy&family=Shadows+Into+Light&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Covered+By+Your+Grace&family=PT+Mono&family=Permanent+Marker&family=Satisfy&family=Shadows+Into+Light&display=swap');
+    
+    
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: antiquewhite;
+        /* background: linear-gradient(90deg, rgb(64, 199, 209) 33%, white 66%, rgb(194, 40, 160) 75%)  ; */
+        /* padding: 1.5em 0; */
+        align-items: center;
+        height: 7em;
+        position: fixed ;
+        top: -16px;
+        left: 0;
+        right: 0;
+        
+    li{
+        padding: 6em;
+    }    
+        
+    }
+    main{
+        position: relative;
+        top: 7em;
+        z-index: -1;
+    }
+    
+    a{ 
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'Archivo Black', sans-serif;
+        
+    }
+    
+    p{
+        font-family: 'Satisfy', cursive;
+    }
+    
+    h1,h2,h3{
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    a:hover{
+        background-color: black;
+        color: #fff;
+    }
+
+    
+}
+@media screen and (min-width: 768px) {
+    
+    
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Covered+By+Your+Grace&family=Permanent+Marker&family=Satisfy&family=Shadows+Into+Light&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Covered+By+Your+Grace&family=PT+Mono&family=Permanent+Marker&family=Satisfy&family=Shadows+Into+Light&display=swap');
+    
+    
+    
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: bisque;
+        /* padding: 1.5em 0; */
+        align-items: center;
+        height: 3em;
+        position: fixed ;
+        top: -20px;
+        left: 0;
+        right: 0;
+        
+    }
+    main{
+        position: relative;
+        top: 3em;
+        z-index: -1;
+    }
+    
+    a{
+        padding: 0.85em 0;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'Archivo Black', sans-serif;
+        
+    }
+    
+    p{
+        font-family: 'Satisfy', cursive;
+    }
+    
+    h1,h2,h3{
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    a:hover{
+        background-color: black;
+        color: #fff;
+    }
+    
+}
+    

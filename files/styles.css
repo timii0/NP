@@ -128,14 +128,16 @@
         font-size: 30px;
     }
     body{
-        background-color: rgb(1, 10, 12);
-        
+        background: url(./lionel\ messi.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
     }
     main{
         font-size: 20px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 100px);
+        grid-template-rows: repeat(5, 300px);
         grid-template-areas: "a a b c"
                              "a a d e"
                              "f f g g"
@@ -146,7 +148,8 @@
     }
     section{
         /* width: 50%; */
-        background-color: rgb(255, 92, 17);
+        background-color: rgb(226, 28, 226);
+        
         /* height: 60px; */
         /* margin-top: 10px;
         margin-bottom: 2em;
@@ -157,32 +160,52 @@
     section:nth-of-type(1){
         grid-area: a;
         background-color: aqua;
+        background: linear-gradient(90deg,blue 33%, white 33%, white 66%, red 66%);
     }
     section:nth-of-type(2){
         grid-area: b;
+        background: linear-gradient(180deg, black 33%, red 33%, red 66% , yellow 66%);
     }
     section:nth-of-type(3){
         grid-area: c;
+       background: radial-gradient(red 20%, white 20%)
     }
     section:nth-of-type(4){
         grid-area: d;
+        background: repeating-radial-gradient(rgb(20, 105, 46) 10%, white 30%);
     }
     section:nth-of-type(5){
         grid-area: e;
+        
     }
     section:nth-of-type(6){
         grid-area: f;
+       
     }
     section:nth-of-type(7){
         grid-area: g;
+        background: url(./lionel\ messi.png), url(./lionel\ messi.png), url(./lionel\ messi.png), url(./lionel\ messi.png), url(./lionel\ messi.png);
+        background-repeat: no-repeat;
+        background-position: top left, top right, center, bottom left, bottom right;
+        
     }
     section:nth-of-type(8){
         grid-area: h;
+        background: url(./Screenshot\ 2023-02-02\ 150442.png);
+        background-size: contain;
+        background-repeat: no-repeat;
     }
-    section:nth-of-type(9){
+
+       
+     section:nth-of-type(9):hover{
         grid-area: i;
+        background: rgb(140, 0, 255);
+        background: url(./lionel\ messi.png);
+        background-blend-mode:exclusion;
+
     }
-}
+     }
+
 @media print{
     body{
     font-size: 30px;

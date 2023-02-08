@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Covered+By+Your+Grace&family=PT+Mono&family=Permanent+Marker&family=Satisfy&family=Shadows+Into+Light&display=swap');
+    
+body{
+    background-color: #123;
+}
+section{
+    height: 100vh;
+    /* border-bottom: 2px solid; */
+
+}
+section:first-of-type{
+    background-color: #123;
+    background-image: url(https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGlsbHN8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat
+    
+    }
+section:last-of-type{
+    background-color: rgb(41, 62, 85);
+    padding: 10px;
+    
+}
+
+.image{
+    padding-top: 100px;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.image img{
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 60%;
+
+}
+.image h2{
+    color: #e55;
+    text-transform: capitalize;
+    font-family: 'Archivo Black', sans-serif;
+}
+.image p{
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+    
+
+section nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+}
+nav>:nth-child(2){
+
+}
+
+nav header{
+    color: #e55;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-size: larger;
+}
+
+nav header span{
+    color: white;
+}
+
+nav >:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40%;
+}
+
+nav a{
+    display: block;
+    padding-right: 1.2em;
+}
+
+nav a{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+nav a:last-of-type{
+    color: #e55;
+    border: 1px solid #e55;
+    text-align: center;
+    padding-left: 1em;
+    padding: 0%;
+
+    
+}
+
+a:first-of-type{
+    color: #e55;
+}
+section:nth-of-type(2){
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 600px;
+    background: #123;
+    color: white;
+    padding: 4em;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+.avatar{
+    background-image: url(https://img.freepik.com/premium-vector/young-african-woman-with-short-hair-earrings-portrait-beautiful-african-woman-avatar-girls-social-networks-abstract-female-portrait-full-face-illustration-flat-style_276162-58.jpg);
+    width: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.profile{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1em;
+    margin-bottom: 35px;
+    border: 2px solid #e55;
+     }
+
+.profile + input{
+background-color: #e55;
+border: none;
+color: white;
+padding: 1em 1.5em;
+border-radius: 5px;
+box-shadow: 0 0 5px white;
+}
+
+.profile + input:hover{
+    background-color: white;
+    color: #e55;
+    box-shadow: 0 0 10px blue;
+    
+    
+}
+
+h3{
+    color: #e55;
+}
+
+h2 span{
+    text-decoration: underline;
+    text-decoration-color: #e55;
+}
+   
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    
+    
+    
+}
+
+aside{
+    width: 60%;
+    
+    
+}
+
+aside>i{
+    font-size: 2rem;
+    color: #e55;
+
+}
+h2{
+    color: white;
+}
+
+.services, .head{
+    padding-left: 10%;
+    font-family: 'Archivo Black', sans-serif;
+}
+    
+.ab{
+    border: 2px solid #e55;
+    padding: 10px 10px;
+
+    
+
+    
+}
+    
+
+
